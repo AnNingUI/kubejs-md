@@ -1,11 +1,3 @@
----
-export_on_save:
-  pandoc: true
-title: "6.1"
-author: 
-output: word_document
----
-
 # 如何在forge下使用Obj模型
 
 ## 建立Obj模型
