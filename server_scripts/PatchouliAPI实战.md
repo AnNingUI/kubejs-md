@@ -319,7 +319,7 @@ BlockEvents.rightClicked((event) => {
 })
 ```
 
-### 测试配方(与主题逻辑同文件)
+### 测试配方(与本体逻辑同文件)
 ```javascript
 let recipes = [{
     "input": [
