@@ -1,5 +1,5 @@
 # PatchouliAPI实战 -- 写一个简单的类凝聚板效果
-
+[示例视频](https://www.bilibili.com/video/BV1aM4m1Q7TM/?spm_id_from=333.788&vd_source=a6e9e72f334103d28476ce3f30850f61)
 ## in startup_script
 ### 注册多方快
 ```javascript
@@ -351,3 +351,5 @@ let recipes = [{
     ]
 }];
 ```
+
+> 语言文件请自行添加

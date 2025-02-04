@@ -1,11 +1,3 @@
----
-export_on_save:
-  pandoc: true
-title: "6.1"
-author: 
-output: word_document
----
-
 # 如何在forge下使用Obj模型
 
 ## 建立Obj模型
@@ -61,7 +53,7 @@ obj的mtllib qqqqoo.mtl是确定mtl文件的，这里默认同级就行
 mtl里面的map_Kd则是要指定贴图的路径
 贴图放在-**{ modid }**/assets/textures/block下
 ## 指向Obj文件
-以为mc无法直接读取obj文件，所以需要一个json模型指向obj文件
+因为mc无法直接读取obj文件，所以需要一个json模型指向obj文件
 ```json
 {
   "loader": "forge:obj",
