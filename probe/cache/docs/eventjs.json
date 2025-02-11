@@ -1,0 +1,183 @@
+{
+    "classes": [
+        {
+            "type": "document:class",
+            "className": "zank.mods.eventjs.SidedNativeEvents",
+            "fields": [],
+            "methods": [
+                {
+                    "type": "document:method",
+                    "name": "onEvent",
+                    "static": false,
+                    "abstract": false,
+                    "variables": [
+                        {
+                            "type": "type:variable",
+                            "name": "T"
+                        }
+                    ],
+                    "params": [
+                        {
+                            "type": "property:param",
+                            "name": "priority",
+                            "paramType": {
+                                "type": "type:class",
+                                "name": "net.minecraftforge.eventbus.api.EventPriority"
+                            },
+                            "varArg": false
+                        },
+                        {
+                            "type": "property:param",
+                            "name": "receiveCancelled",
+                            "paramType": {
+                                "type": "type:class",
+                                "name": "boolean"
+                            },
+                            "varArg": false
+                        },
+                        {
+                            "type": "property:param",
+                            "name": "type",
+                            "paramType": {
+                                "type": "type:parameterized",
+                                "params": [
+                                    {
+                                        "type": "type:variable",
+                                        "name": "T",
+                                        "bounds": []
+                                    }
+                                ],
+                                "base": {
+                                    "type": "type:class",
+                                    "name": "java.lang.Class"
+                                }
+                            },
+                            "varArg": false
+                        },
+                        {
+                            "type": "property:param",
+                            "name": "handler",
+                            "paramType": {
+                                "type": "type:parameterized",
+                                "params": [
+                                    {
+                                        "type": "type:variable",
+                                        "name": "T",
+                                        "bounds": []
+                                    }
+                                ],
+                                "base": {
+                                    "type": "type:class",
+                                    "name": "zank.mods.eventjs.wrapper.WrappedEventHandler"
+                                }
+                            },
+                            "varArg": false
+                        }
+                    ],
+                    "returns": {
+                        "type": "type:class",
+                        "name": "void"
+                    },
+                    "properties": [
+                        {
+                            "type": "property:modify",
+                            "index": 3,
+                            "name": "handler",
+                            "newType": {
+                                "type": "type:parameterized",
+                                "params": [
+                                    {
+                                        "type": "type:primitive",
+                                        "name": "InstanceType<T>",
+                                        "bounds": []
+                                    }
+                                ],
+                                "base": {
+                                    "type": "type:class",
+                                    "name": "zank.mods.eventjs.wrapper.WrappedEventHandler"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "document:method",
+                    "name": "onEvent",
+                    "static": false,
+                    "abstract": false,
+                    "variables": [
+                        {
+                            "type": "type:variable",
+                            "name": "T"
+                        }
+                    ],
+                    "params": [
+                        {
+                            "type": "property:param",
+                            "name": "type",
+                            "paramType": {
+                                "type": "type:parameterized",
+                                "params": [
+                                    {
+                                        "type": "type:variable",
+                                        "name": "T",
+                                        "bounds": []
+                                    }
+                                ],
+                                "base": {
+                                    "type": "type:class",
+                                    "name": "java.lang.Class"
+                                }
+                            },
+                            "varArg": false
+                        },
+                        {
+                            "type": "property:param",
+                            "name": "handler",
+                            "paramType": {
+                                "type": "type:parameterized",
+                                "params": [
+                                    {
+                                        "type": "type:variable",
+                                        "name": "T",
+                                        "bounds": []
+                                    }
+                                ],
+                                "base": {
+                                    "type": "type:class",
+                                    "name": "zank.mods.eventjs.wrapper.WrappedEventHandler"
+                                }
+                            },
+                            "varArg": false
+                        }
+                    ],
+                    "returns": {
+                        "type": "type:class",
+                        "name": "void"
+                    },
+                    "properties": [
+                        {
+                            "type": "property:modify",
+                            "index": 1,
+                            "name": "handler",
+                            "newType": {
+                                "type": "type:parameterized",
+                                "params": [
+                                    {
+                                        "type": "type:primitive",
+                                        "name": "InstanceType<T>",
+                                        "bounds": []
+                                    }
+                                ],
+                                "base": {
+                                    "type": "type:class",
+                                    "name": "zank.mods.eventjs.wrapper.WrappedEventHandler"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
