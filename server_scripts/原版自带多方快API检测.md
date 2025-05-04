@@ -188,7 +188,7 @@ const toJavaStringArray = (arr) => {
 }
 
 ```
-对于一些无法被`Rhino`转换的类型都可以参考这个方法，不如一定要int但因为`js`的`number`只是`float`的情况就可以这样处理
+对于一些无法被`Rhino`转换的类型都可以参考这个方法，假如一定要int但因为`js`的`number`只是`float`的情况就可以这样处理
 ```javascript
 const IntNewOfJsNumber = (num) => IntNewOfString(num.toFixed(0)) // 具体的处理方式可以根据实际情况调整
 // 当然你也可以直接
