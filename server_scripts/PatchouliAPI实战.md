@@ -353,3 +353,6 @@ let recipes = [{
 ```
 
 > 语言文件请自行添加
+
+
+> 本文基本思路来自于落秋，准确来说来自于[dc老哥](https://discord.com/channels/303440391124942858/1141908567004287008/1141908567004287008 )与[帕秋莉wiki](https://vazkiimods.github.io/Patchouli/docs/patchouli-basics/multiblocks/ )

@@ -84,6 +84,7 @@ function getCuriosInfoForPlayerSlot(player, slot, itemId) {
 
 
 /**
+ * > 感谢落秋大大提供的基本思路
  * 对槽位数量的动态操作
  * @param {CuriosMethod} method 
  * @param {CuriosSlot} slot 
@@ -116,3 +117,4 @@ function useCuriosSlotMethod(method,slot,player,amount){
 
 ```
 > 其实关于我自己写的那几个读nbt的方法可以替换为导包来解决且跟好，但我难的改了（已修改为反射方法）
+

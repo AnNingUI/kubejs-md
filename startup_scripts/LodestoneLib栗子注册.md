@@ -256,7 +256,7 @@ LevelEvents.afterExplosion(event => {
     SmokeParticle.spawn(count * 20)
 })
 ```
-
+![](../img/lodestoneLib-pong.png)
 
 ## 从1.4.3.1更新到1.6.2.1
 ### in startup_scripts
@@ -297,7 +297,7 @@ export function registerParticleFactory(event,List){
 ```
 
 ```js
-// startup_scripts/particleregistry.js
+// startup_scripts/particle_registry.js
 
 //priority: 9999
 
@@ -410,3 +410,4 @@ NetworkEvents.dataReceived("particle",event=>{
 // 无变化
 ```
 
+> 本文思路来自于[KJSPKG](https://kjspkglookup.modernmodpacks.site/p/?id=lodestone-js)与[Lodestone源码](https://github.com/LodestarMC/Lodestone )
