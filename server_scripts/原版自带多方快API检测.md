@@ -129,7 +129,7 @@ function isBlockStateInTag(state, tagId) {
 /**
  * 检测方块坐标是否在方块匹配的AABB范围内，防止误判多判
  * 但是呢对于具体情况的具体算法可能十分复杂
- * 比较连`ojang`都无法实现，就别提我了
+ * 就连`ojang`都无法实现，就别提我了
  * 我这里这个只是对 match.{ width == height } 的情况的简单处理
  * @param {BlockPos} pos 
  * @param {Internal.BlockPattern$BlockPatternMatch} match 
