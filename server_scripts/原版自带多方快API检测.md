@@ -1,7 +1,6 @@
 # 用原版的自带多方快API检测多方快
 ## 介绍
-用原版的多方快API好处是可以减小整合包的体积（或许），以及不需要做繁杂的注册处理，但是，由于`ojang`的屎山导致可能存在一些小bug，如[末地传送门框架的范围错误多判定问题](https://www.bilibili.com/video/BV17LNoeZEwd)，所以还是推
-荐使用第三方API
+用原版的多方快API好处是可以减小整合包的体积（或许），以及不需要做繁杂的注册处理，但是，由于`ojang`的屎山导致可能存在一些小bug，如[末地传送门框架的范围错误多判定问题](https://www.bilibili.com/video/BV17LNoeZEwd)，所以还是推荐使用第三方API
 
 ## in server_script
 ```javascript
